@@ -31,12 +31,11 @@
             int outNumber = 0;
             string? str = Console.ReadLine();
             bool isInteger = Int32.TryParse(str, out outNumber);
-            int n = 0;
+            int n = 0;      
             if (isInteger)
             {
                 n = Convert.ToInt32(str?.Trim());
             }
-            
             return n;
         }
     }
