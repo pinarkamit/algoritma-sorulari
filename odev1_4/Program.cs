@@ -12,7 +12,7 @@ namespace Odev1_4
             words = sentence.Split(" ");
             Console.WriteLine("Total word count in sentence: " + words.Length);
             string sentenceNonSpace = sentence.Trim().Replace(" ", "");
-            Console.WriteLine("Total char coutn in sentence: " +sentenceNonSpace.Length);
+            Console.WriteLine("Total char count in sentence: " +sentenceNonSpace.Length);
         }
     }
 }
