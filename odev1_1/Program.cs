@@ -36,6 +36,7 @@
             {
                 n = Convert.ToInt32(str?.Trim());
             }
+            
             return n;
         }
     }
