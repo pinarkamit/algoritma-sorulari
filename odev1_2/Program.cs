@@ -6,12 +6,12 @@
         {
             Console.WriteLine("Enter two positive numbers: ");
             int[] arr2 = new int[2];
-            EnterMultipleIntegers(ref arr2, 2);
+            EnterMultiplePositiveIntegers(ref arr2, 2);
             int n = arr2[0];
             int m = arr2[1];
             Console.WriteLine("Enter positive numbers " + n + " times: ");
             int[] arrN = new int[n];
-            EnterMultipleIntegers(ref arrN, n);
+            EnterMultiplePositiveIntegers(ref arrN, n);
             for (int i = 0; i < arrN.Length; i++)
             {
                 if (arrN[i] % m == 0)
@@ -19,7 +19,7 @@
             }
         }
 
-        private static void EnterMultipleIntegers(ref int[] arr2, int length)
+        private static void EnterMultiplePositiveIntegers(ref int[] arr2, int length)
         {
             for (int i = 0; i < length; i++)
             {
